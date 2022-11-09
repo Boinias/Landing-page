@@ -54,7 +54,16 @@
 }
 
 .button {
-    
+    Display: inline-block;
+    Border: none;
+    Padding: 4px 12px;
+    Font-size: 14;
+    Font-weight: normal;
+    color: rgb(49, 49, 49);
+    Text-align: center;
+    Cursor: pointer;
+    Border-radius: 4px;
+
 }
 .images {
     display: flex;
