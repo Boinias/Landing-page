@@ -39,9 +39,29 @@
 
 .first-section {
     display: flex;
+    justify-content: center;
+    padding: 150px 0px;
+    background-color: rgb(49, 49, 49);
 }
 
+.first-section .left h1,p,button{
+    margin: 10px 0px;
+    color: aliceblue;
+}
+
+.first-section .left p {
+    max-width: 350px;
+}
+
+.button {
+    
+}
+.images {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .MBDTF {
-    max-width: 50px;
-    height: 50px;
+    max-width: 100px;
+    height: auto;
 }
