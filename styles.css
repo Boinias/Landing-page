@@ -3,15 +3,32 @@
     padding: 0;
     margin: 0;
     background-color: rgb(rgb(27, 50, 135), green, blue);
+    font: "roboto", sans serif
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: rgb(27, 50, 135);
+    color: azure;
     font-size: larger;
+    text-align: center;
+    padding: 2%;
 }
 
-.ul {
+.header h1 {
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.header li {
+    min-width: 140px;
+}
+
+.list {
     display: flex;
-    
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
 }
