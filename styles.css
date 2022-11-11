@@ -2,11 +2,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-align: center;
     background-color: rgb(rgb(27, 50, 135), green, blue);
     font: "roboto", sans serif
 }
 
-/*Footer Below*/
+/*Header Below*/
 
 .header {
     display: flex;
@@ -20,7 +21,7 @@
 }
 
 .header h1 {
-    margin-right: 20px;
+    margin: 0px 20px;
     min-width: 200px;
 }
 
@@ -47,10 +48,17 @@
 .first-section .left h1,p,button{
     margin: 10px 0px;
     color: aliceblue;
+    text-align: left;
 }
 
-.first-section .left p {
+.first-section .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 350px;
+    min-width: auto;
+    margin: 0px 50px;
+
 }
 
 .button {
@@ -63,14 +71,57 @@
     Text-align: center;
     Cursor: pointer;
     Border-radius: 4px;
+    max-width: fit-content;
 
 }
 .images {
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
+    margin: 0px 50px;
 }
+
+.images img {
+    border-radius: 20%;
+}
+
 .MBDTF {
     max-width: 100px;
     height: auto;
+}
+
+/*Random info below*/
+
+.random-info .header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    color: black;
+    background-color: white;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+    flex-flow: wrap;
+}
+
+.pictures div {
+    flex: 1 1 0;
+    min-width: 150px;
+    min-height: auto;
+    max-width: 200px;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pictures p {
+    color: black;
+    margin: 10px;
+    text-align: center;
+
 }
