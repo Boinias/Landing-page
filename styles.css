@@ -176,4 +176,14 @@
     margin-left: 20px;
 }
 
-/*CTA below*/
+/*Bottom below*/
+.bottom {
+    background-color: rgb(34, 8, 85);
+    color: black;
+    text-align: center;
+}
+
+.bottom p {
+    text-align: center;
+    padding: 30px 20px;
+}
