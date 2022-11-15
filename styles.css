@@ -129,5 +129,51 @@
 /*Quotation below*/
 
 .quotation {
-    
+    display: flex;
+    justify-content: center;
+    padding: 150px 20px;
+    background-color: aqua;
 }
+.quotation .text {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+.quotation h2 {
+    align-self: flex-start;
+    text-align: left;
+}
+
+.quotation h5 {
+    align-self: flex-end;
+    padding-right: 10px;
+}
+
+/*CTA below*/
+.CTA {
+    display: flex;
+    justify-content: flex-start;
+    background-color: aliceblue;
+
+}
+.blue-card {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    max-width: 600px;
+    margin: 50px 20px 50px 0px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: rgb(8, 41, 41);
+}
+
+.blue-card-bold {
+    font-weight: bolder;
+}
+
+.blue-card .button {
+    margin-left: 20px;
+}
+
+/*CTA below*/
